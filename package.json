@@ -17,6 +17,9 @@
       "import": "./index.js"
     }
   },
+  "files": [
+    "index.*"
+  ],
   "keywords": [
     "prettier",
     "shared",
