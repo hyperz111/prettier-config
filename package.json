@@ -8,6 +8,9 @@
     "format": "prettier -w ./*js",
     "lint": "prettier --check ./*js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": {
       "require": "./index.cjs",
