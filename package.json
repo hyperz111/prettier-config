@@ -1,0 +1,33 @@
+{
+  "name": "@hyperz111/prettier-config",
+  "version": "0.1.0",
+  "description": "Prettier configuration by @hyperz111",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier -w ./*js",
+    "lint": "prettier --check ./*js"
+  },
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.js"
+    }
+  },
+  "keywords": [
+    "prettier",
+    "shared",
+    "config",
+    "formatter",
+    "pretty",
+    "format"
+  ],
+  "author": "Hyper-Z11",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": ">=3.6.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
