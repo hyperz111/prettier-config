@@ -7,4 +7,5 @@ export default {
 	arrowParens: "always",
 	endOfLine: "lf",
 	trailingComma: "all",
+	bracketSameLine: true,
 };
