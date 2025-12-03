@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "format": "prettier -w ./*js",
-    "lint": "prettier --check ./*js"
+    "format": "prettier -w ./*.{ts,js,md}",
+    "lint": "prettier --check ./*.{ts,js,md}"
   },
   "publishConfig": {
     "access": "public"

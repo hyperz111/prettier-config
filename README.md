@@ -37,7 +37,7 @@ Add this line in your `package.json`.
 
 ```json
 {
-  "prettier": "@hyperz111/prettier-config"
+	"prettier": "@hyperz111/prettier-config"
 }
 ```
 
