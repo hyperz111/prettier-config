@@ -13,8 +13,12 @@
 	},
 	"exports": {
 		".": {
-			"require": "./index.cjs",
+			"types": "./types.d.ts",
 			"import": "./index.js"
+		},
+		"./svelte": {
+			"types": "./types.d.ts",
+			"import": "./svelte.js"
 		}
 	},
 	"files": [
