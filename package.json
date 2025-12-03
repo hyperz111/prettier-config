@@ -51,5 +51,6 @@
 	"homepage": "https://github.com/hyperz111/prettier-config#readme",
 	"dependencies": {
 		"prettier-plugin-svelte": "^3.4.0"
-	}
+	},
+	"packageManager": "pnpm@10.15.0"
 }
