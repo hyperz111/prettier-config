@@ -21,7 +21,9 @@
 		}
 	},
 	"files": [
-		"index.*"
+		"index.js",
+		"svelte.js",
+		"types.d.ts"
 	],
 	"keywords": [
 		"prettier",
