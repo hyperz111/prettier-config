@@ -19,6 +19,11 @@ import config from "@hyperz111/prettier-config";
 export default config;
 ```
 
+## Entry points
+
+- Main: `@hyperz111/prettier-config`
+- Svelte: `@hyperz111/prettier-config/svelte`
+
 ## License
 
 [MIT](https://opensource.org/license/mit/)
