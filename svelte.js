@@ -1,8 +1,9 @@
 import config from "./index.js";
+import svelte from "prettier-plugin-svelte";
 
 export default {
 	...config,
-	plugins: ["prettier-plugin-svelte"],
+	plugins: [svelte],
 	overrides: [
 		{
 			files: "*.svelte",
