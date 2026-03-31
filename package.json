@@ -10,14 +10,7 @@
 		"pretty",
 		"format"
 	],
-	"homepage": "https://github.com/hyperz111/prettier-config#readme",
-	"bugs": {
-		"url": "https://github.com/hyperz111/prettier-config/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/hyperz111/prettier-config.git"
-	},
+	"repository": "https://github.com/hyperz111/prettier-config.git",
 	"license": "MIT",
 	"author": "Hyper-Z11",
 	"type": "module",
