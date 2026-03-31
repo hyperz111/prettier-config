@@ -1,3 +1,5 @@
+import * as packageJson from "prettier-plugin-packagejson";
+
 export default {
 	semi: true,
 	tabWidth: 2,
@@ -8,4 +10,5 @@ export default {
 	endOfLine: "lf",
 	trailingComma: "all",
 	bracketSameLine: true,
+	plugins: [packageJson],
 };

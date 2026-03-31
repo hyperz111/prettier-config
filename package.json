@@ -2,14 +2,25 @@
 	"name": "@hyperz111/prettier-config",
 	"version": "1.0.3",
 	"description": "Prettier configuration by @hyperz111",
+	"keywords": [
+		"prettier",
+		"shared",
+		"config",
+		"formatter",
+		"pretty",
+		"format"
+	],
+	"homepage": "https://github.com/hyperz111/prettier-config#readme",
+	"bugs": {
+		"url": "https://github.com/hyperz111/prettier-config/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hyperz111/prettier-config.git"
+	},
+	"license": "MIT",
+	"author": "Hyper-Z11",
 	"type": "module",
-	"scripts": {
-		"format": "prettier -w ./*.{ts,js*,md}",
-		"lint": "prettier --check ./*.{ts,js*,md}"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
 	"exports": {
 		".": {
 			"types": "./types.d.ts",
@@ -25,32 +36,22 @@
 		"svelte.js",
 		"types.d.ts"
 	],
-	"keywords": [
-		"prettier",
-		"shared",
-		"config",
-		"formatter",
-		"pretty",
-		"format"
-	],
-	"author": "Hyper-Z11",
-	"license": "MIT",
-	"peerDependencies": {
-		"prettier": ">=3.6.2"
+	"scripts": {
+		"format": "prettier -w ./*.{ts,js*,md}",
+		"lint": "prettier --check ./*.{ts,js*,md}"
+	},
+	"dependencies": {
+		"prettier-plugin-packagejson": "^3.0.2",
+		"prettier-plugin-svelte": "^3.4.0"
 	},
 	"devDependencies": {
 		"prettier": "^3.6.2"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/hyperz111/prettier-config.git"
+	"peerDependencies": {
+		"prettier": ">=3.6.2"
 	},
-	"bugs": {
-		"url": "https://github.com/hyperz111/prettier-config/issues"
-	},
-	"homepage": "https://github.com/hyperz111/prettier-config#readme",
-	"dependencies": {
-		"prettier-plugin-svelte": "^3.4.0"
-	},
-	"packageManager": "pnpm@10.15.0"
+	"packageManager": "pnpm@10.15.0",
+	"publishConfig": {
+		"access": "public"
+	}
 }

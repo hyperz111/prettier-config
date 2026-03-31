@@ -3,7 +3,7 @@ import svelte from "prettier-plugin-svelte";
 
 export default {
 	...config,
-	plugins: [svelte],
+	plugins: [...config.plugins, svelte],
 	overrides: [
 		{
 			files: "*.svelte",
